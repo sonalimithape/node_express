@@ -1,0 +1,23 @@
+{
+  "name": "node-express-master",
+  "version": "1.0.0",
+  "description": "express master",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "express",
+    "node"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "nodemailer": "^4.0.1",
+    "pug": "^2.0.0-rc.1",
+    "xoauth2": "^1.2.0"
+  }
+}
