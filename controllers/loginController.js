@@ -51,7 +51,7 @@ module.exports.controller = function (app) {
         var email = data.email;
         var msgbody = "Thank You "+email+", You are registered successfully";
         var mailOpts = {
-            from: 'sonali.ithape1234@gmail.com', //grab form data from the request body object
+            from: '', //your email
             to: email,
             subject: 'Account verification',
             text: msgbody
