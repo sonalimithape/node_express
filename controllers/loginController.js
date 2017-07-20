@@ -4,19 +4,12 @@ var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var nodemailer = require('nodemailer');
 var xoauth2 = require('xoauth2');
-  //Setup Nodemailer transport, I chose gmail. Create an application-specific password to avoid problems.
-// var smtpTrans = nodemailer.createTransport({
-//       service: 'Gmail',
-//       auth: {
-//           user: "sonali.ithape1234@gmail.com",
-//           pass: "kshitijpranjali"
-//       }
-// });
+
 var smtpTrans = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-      user: "sonali.ithape@ewebcore.net",
-      pass: "sonali@143"
+      user: "",
+      pass: ""
   }
 });
 

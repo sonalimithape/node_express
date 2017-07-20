@@ -3,19 +3,11 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var nodemailer = require('nodemailer');
 var xoauth2 = require('xoauth2');
-  //Setup Nodemailer transport, I chose gmail. Create an application-specific password to avoid problems.
-// var smtpTrans = nodemailer.createTransport({
-//       service: 'Gmail',
-//       auth: {
-//           user: "sonali.ithape1234@gmail.com",
-//           pass: "kshitijpranjali"
-//       }
-// });
 var smtpTrans = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-      user: "sonali.ithape1234@gmail.com",
-      pass: "kshitijpranjali"
+      user: "",
+      pass: ""
   }
 });
 
